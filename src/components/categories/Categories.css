@@ -1,0 +1,174 @@
+
+
+.cate_header{
+    margin-top: 4rem;
+    padding: 2rem;
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.cate_header > h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.cate_header > button{
+    padding: 1rem 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cate_header > button:hover{
+    background-color: rgb(193, 225, 251);
+}
+
+
+.cate_header > button > i{
+    font-size: 1.5rem;
+    color: coral;
+}
+
+
+.all_cate{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0rem;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-bottom: 1rem;
+}
+
+.cate{
+    /* border: 1px solid red; */
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cate > i{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+.cate > span{
+    font-weight: bold;
+    color: white;
+}
+
+
+.cate_1{
+    /* background-color: rgb(93, 93, 253); */
+    background-image: linear-gradient(rgb(130, 130, 255),rgb(9, 9, 173));
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.cate_1:hover i{
+    color: blue;
+}
+
+.cate_1:hover span{
+    color: black;
+}
+
+.cate_1:hover{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+
+    
+}
+
+
+
+
+
+
+.cate_2{
+    background-image: linear-gradient(orange,rgb(224, 129, 5));
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.cate_2:hover i{
+    color: rgb(255, 191, 0);
+}
+
+.cate_2:hover span{
+    color: black;
+}
+
+.cate_2:hover{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+
+    
+}
+
+
+
+
+
+
+
+
+.cate_3{
+   
+    background-image:linear-gradient(rgb(54, 215, 102),rgb(37, 159, 62));
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+
+.cate_3:hover i{
+    color: rgb(53, 195, 108);
+}
+
+.cate_3:hover span{
+    color: black;
+}
+
+.cate_3:hover{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+
+    
+}
+
+
+
+
+
+.cate_4{
+  
+    background-image: linear-gradient(rgb(239, 32, 198),rgb(163, 16, 138));
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+
+
+
+.cate_4:hover i{
+    color: rgb(235, 10, 178);
+}
+
+.cate_4:hover span{
+    color: black;
+}
+
+.cate_4:hover{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+
+    
+}

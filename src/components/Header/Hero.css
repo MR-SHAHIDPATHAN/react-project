@@ -1,0 +1,119 @@
+
+.hero_parent{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.hero_one{
+  flex: 1;
+}
+
+
+.hero_one > h1{
+    font-size: 3rem;
+}
+
+.codding_imgs{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0rem;
+
+
+     
+}
+
+.codding_imgs > img{
+  padding: 1rem;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: rgba(201, 201, 248, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   
+
+}
+
+
+/* animation css here  */
+
+.rotate-90-cw {
+	-webkit-animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+	        animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+}
+
+
+
+
+ @-webkit-keyframes rotate-90-cw {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(90deg);
+              transform: rotate(90deg);
+    }
+  }
+  @keyframes rotate-90-cw {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(90deg);
+              transform: rotate(90deg);
+    }
+  }
+
+
+
+
+
+  .hero_btns{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    margin-top: 2rem;
+  }
+
+  .hero_btns > button{
+    padding: 1rem 2rem;
+    background-color: rgb(83, 83, 200);
+    border: 1px solid white;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .hero_btns > button:hover{
+    background-color: blueviolet;
+  }
+
+  .hero_btns > button > i{
+    color: orange;
+  }
+
+
+.hero_two{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  .hero_two > img{
+    width: 80%;
+
+  }
+
+
+
+
+
+  
+
+
+

@@ -1,0 +1,117 @@
+
+.course_heading{
+    margin-top: 4rem;
+    padding: 2rem;
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+}
+
+.course_heading > h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.course_heading > button{
+    padding: 1rem 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.course_heading > button:hover{
+    background-color: rgb(193, 225, 251);
+}
+
+
+.course_heading > button > i{
+    font-size: 1.5rem;
+    color: coral;
+}
+
+.allcoures{
+    padding: 2rem;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+
+}
+
+.allcoures > .courses{
+    flex: 1;
+    /* border: 1px solid red; */
+    padding: 1rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 1rem;
+
+}
+
+.courses > img{
+    width: 100%;
+    border-radius: 1rem;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.admin_name{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid blue; */
+    padding: 1rem;
+}
+
+.admin_name > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.admin_name > p{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding: 0.5rem;
+}
+
+
+
+.star_rating > span > i{
+    color: orange;
+}
+
+
+.course_desc > p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.coures_time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.times > span{
+    color: rgb(108, 107, 107);
+}
+
+.course_price > span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+

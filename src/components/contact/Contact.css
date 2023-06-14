@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contact{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+.contact > img{
+    width: 400px;
+}
+
+
+.contact  > h1{
+    font-size: 3.2rem;
+   padding: 1rem;
+   
+}
+
+.contact_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact_form{
+    /* border: 1px solid blue; */
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 50%;
+    background-color: rgb(255, 243, 226);
+    padding: 1rem;
+}
+
+
+.email_name{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.contact_email{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+.contact_email > label{
+    padding: 0.5rem;
+}
+
+.contact_email > input{
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    background-color: white;
+    
+
+}
+
+
+.contact_name{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.contact_name > label{
+    padding: 0.5rem;
+}
+
+
+.contact_name > input{
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    background-color: white;
+    
+
+}
+
+.checkbox{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.checkbox > .terms{
+    color: blue;
+    cursor: pointer;
+}
+
+.contact_btns{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contact_btns > input{
+    width: 100%;
+    color: red;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    background-color: rgb(237, 150, 228);
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
