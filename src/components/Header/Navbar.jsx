@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
+import cartContext from './../../context/CartContext'
 
 import './Navbar.css'
 
+
 const Navbar = () => {
+    const data = useContext(cartContext);
+    console.log(data.items);
+
+
+   
+
   return (
     <div>
     
@@ -53,12 +61,11 @@ const Navbar = () => {
          </div>
 
 
-            
-
-
+          
 
        </div>
        <div className="right">
+           <p> {data.items} </p>
           <button> Register</button>
           <img src="https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper-thumbnail.png" alt="" />
        </div>

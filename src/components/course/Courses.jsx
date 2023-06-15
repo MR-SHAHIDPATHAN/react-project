@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Courses.css'
 import Coursedata from './courseData.js'
+import cartContext from '../../context/CartContext'
+
 
 const Courses = () => {
+      const incr = useContext(cartContext);
+
+
+
 
 
   return (
@@ -53,7 +59,10 @@ const Courses = () => {
                   <div className="course_price">
                     <span> {ele.couresprice}  </span>
                   </div>
-                </div>  
+                     
+
+                </div> 
+                <button className='carts' onClick={incr.demos} > Add to cart </button> 
                 </div>
 
               )})
